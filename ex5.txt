@@ -1,0 +1,2 @@
+Physical memory is the memory exists PHYSICALLY in, for example chips. Virtual memory is the abstaction that allows to user to structorise memory in easy way. Difference is that, if for example part of the memory located on the part of physical memory, it will located there furthe. While in virtual memory, it can change it's location dynamically. 
+ For example if we need to use 2 things from physical memory, and they allocates in 0-4K and 256-260K section, for programmer it would be easier to map 256K section onto 4-8K section and work with them.
