@@ -1,0 +1,15 @@
+output of 1st program:
+Hello
+Hello
+
+output of 2nd program:
+Hello
+
+
+----------------------
+This is happens, bacause putput stream t terminal are line buffered.
+But after fork, state is full buffered.
+When data goes to terminal output stream, it line buffered and then,
+only last buffered line (the last one in full buffer) will be printed
+In 1st program, buffered line is Hello, when in 2nd is "\n".
+Thats why programs returns such different outputs.
