@@ -1,0 +1,77 @@
+    1  whoami
+    2  less
+    3  man man
+    4  whoami man
+    5  ls
+    6  head -n3
+    7  head -n 3
+    8  pwd
+    9  ls > f.txt
+   10  f.txt
+   11  ls
+   12  mkdir OS
+   13  cd OS
+   14  mkdir week1
+   15  cd week1
+   16  cd ..
+   17  cd week1
+   18  hello>error.log
+   19  hello >error.log
+   20  hello 2>error.log
+   21* mv /OS/week1
+   22* mv /home/dinislam/Desktop/OS/week1/error.log OS
+   23  mv /home/OS/week1/error.log /home/OS
+   24  mv /Home/OS/week1/error.log /home/OS
+   25  ls
+   26  cd //
+   27  cd ..
+   28  mv /Home/OS/week1/error.log /home/OS
+   29  cd OS
+   30  ls
+   31  cd home
+   32  ls
+   33  cd dinislam
+   34  ls
+   35  cd OS
+   36  cd week1
+   37  getit error.log
+   38  ls
+   39  getid error.log
+   40  gedit error.log
+   41  touch f1.txt
+   42  cat > f1.txt
+   43  cat >f1.txt
+   44  man cat
+   45  cat f1.txt
+   46  echo f1.txt
+   47  gedit f1.txt
+   48  jobs
+   49  gedit &bg f1.txt
+   50  jobs
+   51  gedit &bg f1.txt
+   52  jobs
+   53  cd ..
+   54  ls
+   55  cd ..
+   56  ls
+   57  cd ..
+   58  ls
+   59  ls > files.txt
+   60  ls > /home/files.txt
+   61  ls > /home/dinislam/OS/week1/files.txt
+   62  cd /home/dinislam/OS/week1
+   63  gedit files.txt
+   64  ls -l /usr/bin/"gcc" >/home/dinislam/OS/week1/ex1.txt
+   65  ls -l /home/bin/"gcc" >/home/dinislam/OS/week1/ex1.txt
+   66  ls -l //home/bin/"gcc" >/home/dinislam/OS/week1/ex1.txt
+   67  ls -l /bin/"gcc" >/home/dinislam/OS/week1/ex1.txt
+   68  ls -l /computer/bin/"gcc" >/home/dinislam/OS/week1/ex1.txt
+   69  ls -l /usr/bin/"gcc" >/home/dinislam/OS/week1/ex1.txt
+   70  ls -l /usr/bin >/home/dinislam/OS/week1/ex1.txt
+   71  ls -l /usr/bin | grep gcc | sort -r >/home/dinislam/OS/week1/ex1.txt
+   72  cd /home/dinislam/OS/week1
+   73  gedit ex1.txt
+   74  ls -l /usr/bin | grep gcc | sort -r >/home/dinislam/OS/week1/ex1.txt
+   75  ls -l /usr/bin | grep gcc | sort -r >/home/dinislam/OS/week1/ex2.txt
+   76  history
+   77  history > ex2.txt
