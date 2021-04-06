@@ -1,0 +1,7 @@
+*** link ../week1/file.txt _ex2.txt **
+*** No output ***
+*** find / -inum 271043 ***
+/home/dinislam/OS/week10/_ex2.txt
+/home/dinislam/OS/week1/file.txt
+*** find / -inum 271043 -rm {} \; ***
+*** No output ***

@@ -1,0 +1,6 @@
+total 8
+266022 drwxrwxr-x  2 dinislam dinislam 4096 окт 20 12:50 .
+270196 drwxrwxr-x 12 dinislam dinislam 4096 окт 20 12:48 ..
+270801 -rw-rw-r--  3 dinislam dinislam    0 окт 20 12:54 ex1_1.txt
+270801 -rw-rw-r--  3 dinislam dinislam    0 окт 20 12:54 ex1_2.txt
+270801 -rw-rw-r--  3 dinislam dinislam    0 окт 20 12:54 ex1.txt

@@ -1,0 +1,10 @@
+*** chmod a-x _ex3.txt ***
+-rw-rw-r-- 1 dinislam dinislam 0 окт 20 17:50 _ex3.txt
+*** chmod g+rwx _ex3.txt ***
+*** chmod u+rwx _ex3.txt ***
+-rwxrw-rwx 1 dinislam dinislam 0 окт 20 17:50 _ex3.txt
+*** chmod o=u _ex3.txt ***
+-rwxrwxrwx 1 dinislam dinislam 0 окт 20 17:50 _ex3.txt
+
+// 660 means permissions. First digit is for user, second for group, third for others. We have 3 permissions, 6 = 110 means permission for read and write and no permission for execute for user.
+7 = 111 means permission for read, write and execute.

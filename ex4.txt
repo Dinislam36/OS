@@ -1,0 +1,4 @@
+inum: 397098
+Files:
+file1
+link1
