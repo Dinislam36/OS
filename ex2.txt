@@ -1,0 +1,8 @@
+Let construt sequence that will have as much as possible hit/miss ratio.
+The best sequene will be, if all same references will be as much near as it possible. For example:
+1 1 1 4 7 7 7 9 21 23 53 12 42 8 8
+This is best, because once reference are deleted from frames, it will not refer to it again later.
+
+To construct sequence with low hit/miss ratio we need to construct that sequence: to split same references with range at least number_of_frames+number_of_same_references (within next n references) for example: 
+1 2 4 7 8 1 2 (with number of frames = 4)
+In this case repearing reference will be deleted in the step before it come next time and this will lead to decreasing rate of hit/miss
